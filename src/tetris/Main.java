@@ -169,8 +169,7 @@ public class Main {
             System.out.println();
         }
         System.out.println("all=" + (white + black));
-        System.out.println("white=" + white);
-        System.out.println("black=" + black);
+        System.out.println("white =" + white);
+        System.out.println("black =" + black);
     }
-
 }

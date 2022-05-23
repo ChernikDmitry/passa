@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         int visota = 44;
-        int sirina = 24;
+        int sirina = 21;
         int white = (int) (visota * sirina * 0.8);
         int black = visota * sirina - white;
         System.out.println("all=" + visota * sirina);
@@ -80,7 +80,7 @@ public class Main {
                                 white++;
                             }
                         }
-                    } else if (count_white_line > (5 + Math.random() * 7)) {
+                    } else if (count_white_line > (3 + Math.random() * 13)) {
                         massive[i][j] = 1;
                         black++;
                         count_white_line = 0;

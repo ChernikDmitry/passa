@@ -7,8 +7,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int visota = 44;
-        int sirina = 21;
+        int visota = 52;
+        int sirina = 24;
         int white = (int) (visota * sirina * 0.8);
         int black = visota * sirina - white;
         System.out.println("all=" + visota * sirina);
